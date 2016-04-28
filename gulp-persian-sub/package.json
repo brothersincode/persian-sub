@@ -1,0 +1,39 @@
+{
+  "name": "gulp-persian-sub",
+  "version": "0.1.0",
+  "description": "Preparing Persian Subtitles: Gulp Plugin",
+  "license": "MIT",
+  "author": {
+    "name": "Nasser Rafie",
+    "email": "contact@geminorum.ir",
+    "url": "http://geminorum.ir"
+  },
+  "homepage": "https://github.com/brothersincode/persian-sub#readme",
+  "bugs": {
+    "url": "https://github.com/brothersincode/persian-sub/issues"
+  },
+  "files": [
+    "lib",
+    "index.js",
+    "gulpfile.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brothersincode/persian-sub"
+  },
+  "keywords": [
+    "persian",
+    "srt",
+    "subtitle",
+    "virastar",
+    "gulp",
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.0",
+    "persian-sub-encoding": "^0.1.0",
+    "persian-sub-rename": "^0.1.0",
+    "persian-sub-virastar": "^0.1.0"
+  }
+}
