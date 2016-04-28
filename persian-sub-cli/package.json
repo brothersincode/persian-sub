@@ -1,0 +1,56 @@
+{
+  "name": "persian-sub-cli",
+  "version": "0.1.0",
+  "description": "Preparing Persian Subtitles: CLI",
+  "license": "MIT",
+  "author": {
+    "name": "Nasser Rafie",
+    "email": "contact@geminorum.ir",
+    "url": "http://geminorum.ir"
+  },
+  "homepage": "https://github.com/brothersincode/persian-sub#readme",
+  "bugs": {
+    "url": "https://github.com/brothersincode/persian-sub/issues"
+  },
+  "files": [
+    "index.js",
+    "persian-sub.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brothersincode/persian-sub"
+  },
+  "bin": {
+    "persian-sub": "./persian-sub.js"
+  },
+  "keywords": [
+    "persian",
+    "srt",
+    "subtitle",
+    "virastar"
+  ],
+  "dependencies": {
+    "commander": "^2.9.0",
+    "extend": "^3.0.0",
+    "persian-sub-encoding": "^0.1.0",
+    "persian-sub-rename": "^0.1.0",
+    "persian-sub-virastar": "^0.1.0",
+    "through2": "^0.6.1",
+    "vinyl-fs": "^2.4.3"
+  },
+  "devDependencies": {
+    "iconv-lite": "^0.4.13",
+    "is-utf8": "^0.2.1",
+    "jschardet": "^1.4.1",
+    "virastar": "^0.5.3"
+  },
+  "nexe": {
+    "input": "./persian-sub.js",
+    "output": "persian-sub^$",
+    "temp": ".nexe",
+    "runtime": {
+      "framework": "node",
+      "ignoreFlags": true
+    }
+  }
+}
