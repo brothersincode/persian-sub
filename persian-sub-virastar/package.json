@@ -25,7 +25,6 @@
     "subtitle",
     "srt"
   ],
-  "readme": "ERROR: No README data found!",
   "dependencies": {
     "virastar": "^0.5.3"
   }

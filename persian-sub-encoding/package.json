@@ -24,7 +24,6 @@
     "encoding",
     "utf8"
   ],
-  "readme": "ERROR: No README data found!",
   "dependencies": {
     "iconv-lite": "^0.4.4",
     "is-utf8": "^0.2.0",
