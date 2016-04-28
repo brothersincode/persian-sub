@@ -1,0 +1,32 @@
+{
+  "name": "persian-sub-virastar",
+  "version": "0.1.0",
+  "description": "Preparing Persian Subtitles: Virastar",
+  "license": "MIT",
+  "author": {
+    "name": "Nasser Rafie",
+    "email": "contact@geminorum.ir",
+    "url": "http://geminorum.ir"
+  },
+  "homepage": "https://github.com/brothersincode/persian-sub#readme",
+  "bugs": {
+    "url": "https://github.com/brothersincode/persian-sub/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brothersincode/persian-sub"
+  },
+  "keywords": [
+    "virastar",
+    "persian",
+    "subtitle",
+    "srt"
+  ],
+  "readme": "ERROR: No README data found!",
+  "dependencies": {
+    "virastar": "^0.5.3"
+  }
+}
