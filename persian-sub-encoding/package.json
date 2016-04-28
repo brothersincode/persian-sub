@@ -1,0 +1,33 @@
+{
+  "name": "persian-sub-encoding",
+  "version": "0.1.0",
+  "description": "Preparing Persian Subtitles: Encoding",
+  "license": "MIT",
+  "author": {
+    "name": "Nasser Rafie",
+    "email": "contact@geminorum.ir",
+    "url": "http://geminorum.ir"
+  },
+  "homepage": "https://github.com/brothersincode/persian-sub#readme",
+  "bugs": {
+    "url": "https://github.com/brothersincode/persian-sub/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brothersincode/persian-sub"
+  },
+  "keywords": [
+    "persian",
+    "encoding",
+    "utf8"
+  ],
+  "readme": "ERROR: No README data found!",
+  "dependencies": {
+    "iconv-lite": "^0.4.4",
+    "is-utf8": "^0.2.0",
+    "jschardet": "^1.0.0"
+  }
+}
