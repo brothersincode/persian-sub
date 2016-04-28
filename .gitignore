@@ -1,0 +1,13 @@
+.idea
+.gulp
+.imdone
+.temp
+.nexe
+
+node_modules
+npm-debug.log
+
+/x-local-*
+
+/in
+/out
