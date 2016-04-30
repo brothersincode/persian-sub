@@ -1,6 +1,6 @@
 # Persian Sub
 
-parse and process `srt` files in Persian
+nodejs packages to parse and process `srt` files in Persian
 
 ## [persian-sub-encoding](https://www.npmjs.com/package/persian-sub-encoding)
 
@@ -22,14 +22,15 @@ command line interface for persian-sub modules
 
 plugin for [gulp.js](http://gulpjs.com/)
 
-### Changelog
-See [CHANGES.md](https://github.com/brothersincode/persian-sub/CHANGES.md).
+### changelog
+see [CHANGES.md](https://github.com/brothersincode/persian-sub/CHANGES.md).
 
-### Contributing
-See [CONTRIBUTING.md](https://github.com/brothersincode/persian-sub/CONTRIBUTING.md).
+### contributing
+see [CONTRIBUTING.md](https://github.com/brothersincode/persian-sub/CONTRIBUTING.md).
 
-Please log issues [here](https://github.com/brothersincode/persian-sub/issues).
+please log issues [here](https://github.com/brothersincode/persian-sub/issues).
 
+[![GitHub issues](https://img.shields.io/github/issues/brothersincode/persian-sub.svg?style=flat-square)](https://github.com/brothersincode/persian-sub/issues)
+[![Brothers in Code](http://img.shields.io/badge/Brothers-in_Code-lightgrey.svg?style=flat-square)](http://brothersincode.ir/)
 [![it's a geminorum project](http://img.shields.io/badge/it's_a-geminorum_project-lightgrey.svg?style=flat-square)](http://geminorum.ir/)
-[![Brothers in Code](http://img.shields.io/badge/Brothers-in_Code-lightgrey.svg?style=flat-square)](https://github.com/brothersincode/)
 [![Analytics](https://ga-beacon.appspot.com/UA-865830-4/persian-sub/readme?pixel)](https://github.com/brothersincode/persian-sub)
