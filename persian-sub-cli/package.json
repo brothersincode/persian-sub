@@ -35,14 +35,14 @@
     "persian-sub-encoding": "^0.1.0",
     "persian-sub-rename": "^0.1.0",
     "persian-sub-virastar": "^0.1.0",
-    "through2": "^0.6.1",
+    "through2": "^0.6.5",
     "vinyl-fs": "^2.4.3"
   },
   "devDependencies": {
     "iconv-lite": "^0.4.13",
     "is-utf8": "^0.2.1",
     "jschardet": "^1.4.1",
-    "virastar": "^0.5.3"
+    "virastar": "^0.6.0"
   },
   "nexe": {
     "input": "./persian-sub.js",

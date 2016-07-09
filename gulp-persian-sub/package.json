@@ -31,7 +31,7 @@
   ],
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-util": "^3.0.0",
+    "gulp-util": "^3.0.7",
     "persian-sub-encoding": "^0.1.0",
     "persian-sub-rename": "^0.1.0",
     "persian-sub-virastar": "^0.1.0"
