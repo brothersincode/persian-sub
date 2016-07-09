@@ -21,7 +21,7 @@ program
 	.option('-i, --in [folder]', 'Source folder', './in')
 	.option('-o, --out [folder]', 'Destination folder', './out')
 	.option('-e, --ext [extension]', 'File extension mask', 'srt')
-	.option('-v, --verbose', 'A value that can be increased', increaseVerbosity, 0)
+	// .option('-v, --verbose', 'A value that can be increased', increaseVerbosity, 0)
 	.parse(process.argv);
 
 // console.log(' in: %s', program.in);
