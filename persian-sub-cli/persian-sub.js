@@ -15,7 +15,6 @@ function increaseVerbosity(v, total) {
 }
 
 program
-	.version('0.1.0')
 	.version(pkg.version)
 	.description(pkg.description)
 	.usage('--in /input-dir --out /output-dir --ext srt')
