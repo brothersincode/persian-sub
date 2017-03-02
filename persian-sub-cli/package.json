@@ -1,6 +1,6 @@
 {
   "name": "persian-sub-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Preparing Persian Subtitles: CLI",
   "license": "MIT",
   "author": {
@@ -32,9 +32,9 @@
   "dependencies": {
     "commander": "^2.9.0",
     "extend": "^3.0.0",
-    "persian-sub-encoding": "^0.1.0",
-    "persian-sub-rename": "^0.1.0",
-    "persian-sub-virastar": "^0.1.0",
+    "persian-sub-encoding": "^0.1.1",
+    "persian-sub-rename": "^0.1.1",
+    "persian-sub-virastar": "^0.1.1",
     "through2": "^2.0.3",
     "vinyl-fs": "^2.4.4"
   },
