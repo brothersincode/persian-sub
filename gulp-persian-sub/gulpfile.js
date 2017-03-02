@@ -1,13 +1,11 @@
 (function() {
 	'use strict';
 
-	var
-		persianSub = require('./index.js'),
+	var persianSub = require('./index.js'),
 		gulp = require('gulp'),
 		fs = require('fs');
 
-	var
-		pkg = JSON.parse(fs.readFileSync('./package.json'));
+	var pkg = JSON.parse(fs.readFileSync('./package.json'));
 
 	gulp.task('default', function() {
 

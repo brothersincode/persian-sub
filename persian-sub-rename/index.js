@@ -2,9 +2,11 @@ var path = require('path');
 
 // @SOURCE: http://stackoverflow.com/a/9744576/4864081
 function paddy(n, p, c) {
-    var pad_char = typeof c !== 'undefined' ? c : '0';
-    var pad = new Array(1 + p).join(pad_char);
-    return (pad + n).slice(-pad.length);
+	var pad_char = typeof c !== 'undefined'
+		? c
+		: '0';
+	var pad = new Array(1 + p).join(pad_char);
+	return (pad + n).slice(-pad.length);
 }
 
 // @SOURCE: gulp-rename
@@ -27,7 +29,7 @@ function processSeasonXEpisode(name) {
 }
 
 module.exports = function(filePath, options) {
-    options = options || {};
+	options = options || {};
 	var parsedPath = parsePath(filePath);
 	return path.join(parsedPath.dirname, (processSeasonXEpisode(parsedPath.basename) + '.fa' + parsedPath.extname));
 };
