@@ -3,28 +3,28 @@ var iconv = require('iconv-lite'); // https://github.com/ashtuchkin/iconv-lite
 var jschardet = require('jschardet'); // https://github.com/aadsm/jschardet
 
 module.exports = function(contents, options) {
-	options = options || {};
-	
-	if (isUtf8(contents))
-		return contents;
+  options = options || {};
+  
+  if (isUtf8(contents))
+    return contents;
 
-	var encInfo = jschardet.detect(contents);
-	var encFrom = encInfo.encoding;
+  var encInfo = jschardet.detect(contents);
+  var encFrom = encInfo.encoding;
 
-	switch (encInfo.encoding) {
-		case 'UTF-16LE':
-			encFrom = 'utf16-le';
-			break;
-		default:
-			encFrom = 'win1256';
-	}
+  switch (encInfo.encoding) {
+    case 'UTF-16LE':
+      encFrom = 'utf16-le';
+      break;
+    default:
+      encFrom = 'win1256';
+  }
 
-	try {
-		var decoded = iconv.decode(contents, encFrom);
-		contents = iconv.encode(decoded, 'utf8');
-	} catch (e) {
-		console.log('Conversion Failed: ' + e);
-	}
+  try {
+    var decoded = iconv.decode(contents, encFrom);
+    contents = iconv.encode(decoded, 'utf8');
+  } catch (e) {
+    console.log('Conversion Failed: ' + e);
+  }
 
-	return contents;
+  return contents;
 };
