@@ -26,6 +26,6 @@
     "srt"
   ],
   "dependencies": {
-    "virastar": "^0.12.0"
+    "virastar": "^0.13.0"
   }
 }

@@ -30,19 +30,19 @@
     "virastar"
   ],
   "dependencies": {
-    "commander": "^2.9.0",
-    "extend": "^3.0.0",
+    "commander": "^2.14.1",
+    "extend": "^3.0.1",
     "persian-sub-encoding": "^0.1.1",
     "persian-sub-rename": "^0.1.1",
     "persian-sub-virastar": "^0.1.1",
     "through2": "^2.0.3",
-    "vinyl-fs": "^2.4.4"
+    "vinyl-fs": "^3.0.2"
   },
   "devDependencies": {
-    "iconv-lite": "^0.4.15",
+    "iconv-lite": "^0.4.19",
     "is-utf8": "^0.2.1",
-    "jschardet": "^1.4.1",
-    "virastar": "^0.12.0"
+    "jschardet": "^1.6.0",
+    "virastar": "^0.13.0"
   },
   "nexe": {
     "input": "./persian-sub.js",

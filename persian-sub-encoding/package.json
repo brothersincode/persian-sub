@@ -25,8 +25,8 @@
     "utf8"
   ],
   "dependencies": {
-    "iconv-lite": "^0.4.15",
+    "iconv-lite": "^0.4.19",
     "is-utf8": "^0.2.1",
-    "jschardet": "^1.4.1"
+    "jschardet": "^1.6.0"
   }
 }
