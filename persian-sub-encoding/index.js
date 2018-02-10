@@ -2,11 +2,12 @@ var isUtf8 = require('is-utf8'); // https://github.com/wayfind/is-utf8
 var iconv = require('iconv-lite'); // https://github.com/ashtuchkin/iconv-lite
 var jschardet = require('jschardet'); // https://github.com/aadsm/jschardet
 
-module.exports = function(contents, options) {
+module.exports = function (contents, options) {
   options = options || {};
-  
-  if (isUtf8(contents))
+
+  if (isUtf8(contents)) {
     return contents;
+  }
 
   var encInfo = jschardet.detect(contents);
   var encFrom = encInfo.encoding;

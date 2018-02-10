@@ -5,9 +5,9 @@ var persianSubEncoding = require('persian-sub-encoding');
 
 var PLUGIN_NAME = 'gulp-persian-sub';
 
-module.exports = function(options) {
-  return through.obj(function(file, enc, cb) {
-    var self = this;
+module.exports = function (options) {
+  return through.obj(function (file, enc, cb) {
+    // var self = this;
 
     options = options || {};
 

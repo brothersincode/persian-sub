@@ -1,13 +1,13 @@
 var gutil = require('gulp-util');
 var through = require('through2');
 
-var  persianSubVirastar = require('persian-sub-virastar');
+var persianSubVirastar = require('persian-sub-virastar');
 
 var PLUGIN_NAME = 'gulp-persian-sub';
 
-module.exports = function(options) {
-  return through.obj(function(file, enc, cb) {
-    var self = this;
+module.exports = function (options) {
+  return through.obj(function (file, enc, cb) {
+    // var self = this;
 
     options = options || {};
 
